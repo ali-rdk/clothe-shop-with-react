@@ -1,0 +1,7 @@
+export {ReactComponent as LogoSVG} from "./Logo.svg"
+export {ReactComponent as MagnifierSVG} from "./Magnifier.svg"
+export {ReactComponent as BellSVG} from "./Bell.svg"
+export {ReactComponent as UserProfileSVG} from "./User.svg"
+export {ReactComponent as ArrowSVG} from "./Arrow.svg"
+export {ReactComponent as PriceSVG} from "./Price.svg"
+export {ReactComponent as EyeSVG} from "./Eye.svg"

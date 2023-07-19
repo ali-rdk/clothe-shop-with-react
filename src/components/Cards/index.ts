@@ -1,0 +1,6 @@
+export * from "./MenCard"
+export * from "./NotifCard"
+export * from "./WomenCard"
+export * from "./SportsCard"
+export * from "./KidsCard"
+export * from "./ProfileCard"
