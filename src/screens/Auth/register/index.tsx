@@ -125,6 +125,7 @@ export const RegisterScreen = () => {
               color="secondary"
               label="Password"
               sx={{ backgroundColor: "#F5F4F2", p: 1 }}
+              type={passtype}
               InputProps={{
                 endAdornment: (
                   <InputAdornment position="end">
@@ -137,9 +138,9 @@ export const RegisterScreen = () => {
                       }}
                     >
                       {passtype === "text" ? (
-                        <VisibilityOffIcon />
-                      ) : (
                         <VisibilityIcon />
+                      ) : (
+                        <VisibilityOffIcon />
                       )}
                     </IconButton>
                   </InputAdornment>
@@ -148,8 +149,7 @@ export const RegisterScreen = () => {
               }}
               error={Boolean(errors.password?.message)}
               helperText={errors.password?.message}
-            />{" "}
-            ``
+            />
             <LoadingButton
               variant="contained"
               type="submit"
